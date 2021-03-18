@@ -1,0 +1,36 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 200px 1fr ;
+    grid-template-rows: 100px 1fr auto;
+    grid-template-areas:
+    'logo corpo'
+    'menu corpo'
+    'rodape rodape';
+}
+
+.logo{
+    background-color: blue;
+    grid-area: logo;
+}
+
+.menu{
+    background-color: blueviolet;
+    grid-area: menu;
+}
+
+.corpo{
+    background-color: chartreuse;
+    grid-area: corpo;
+}
+
+.rodape{
+    background-color: crimson;
+    grid-area: rodape;
+}

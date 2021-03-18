@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <label for="nome">Nome</label><br>
+        <input placeholder="Digite seu nome" type="text" required id="nome" name="nome"><br>
+        <label for="email">E-mail</label><br>
+        <input type="email" required id="email" name="email"><br>
+        <label for="datanasc">Data de nascimento</label><br>
+        <input type="date" id="datanasc" name="datanasc"><br>
+        <br>
+        <label for="msg">Mensagem</label><br>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br>
+        <label for="estado">Estado</label><br>
+        <select name="estado" id="estado">
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+        </select><br>
+        <input type="file" name="arquivo" id="arquivo">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

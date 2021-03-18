@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 09</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <label for="nome">Nome</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite o seu nome"><br>
+        <label for="ra">RA</label><br>
+        <input type="text" id="ra" name="ra" placeholder="Digite o seu RA"><br>
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="email" placeholder="Digite o seu e-mail"><br>
+        <label for="datanasc">Data de nascimento</label><br>
+        <input type="date" id="datanasc" name="datanasc"><br>
+        <label for="curso">Curso</label><br>
+        <select name="curso" id="curso">
+            <option value="" selected disabled>Selecione uma opção</option>
+            <optgroup label="Cursos de Graduação">
+                <option value="agro">Tecnologia em Agronegócio</option>
+                <option value="ads">Tecnologia em Análise de Desenvolvimento de Sistemas</option>
+                <option value="pi">Tecnologia em Produção Industrial</option>
+                <option value="si">Tecnologia em Sistemas para Internet</option>
+            </optgroup>
+            <optgroup label="Pós-Graduação">
+                <option value="gpi">Especialização em Gestão da Produção Industrial</option>
+            </optgroup>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

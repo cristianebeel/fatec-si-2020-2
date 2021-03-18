@@ -1,0 +1,29 @@
+body{
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+h1{
+    color: blue;
+}
+
+table{
+    border: 2px solid #000;
+    background-color: #feffcb;
+    width: 75%;
+    margin: 0 auto;
+}
+
+td{
+    border: 1px solid #000;
+}
+
+table tr td{
+    padding: 0.5em;
+}
+
+.titulos{
+    color: red;
+    font-weight: bold;
+    background-color: #fafcac;
+}

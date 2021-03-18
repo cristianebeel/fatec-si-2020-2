@@ -1,0 +1,30 @@
+body{
+    /* cor de fundo */
+    background-color: seagreen;
+    /* cor do texto */
+    color: #ffffff;
+}
+
+table{
+    /* borda - tamanho, tipo, cor */
+    border: 2px solid #ffffff;
+}
+
+td{
+    border: 1px solid #ffffff;
+}
+
+img{
+    width: 50%;
+    border: 2px dashed #ff0000;
+}
+
+/* classe - class="td-ajuste"> */
+.td-ajuste{
+    background-color: #00ff00;
+}
+
+.texto-c{
+    /* alinhar texto */
+    text-align: center;
+}

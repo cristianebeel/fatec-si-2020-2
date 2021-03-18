@@ -1,0 +1,67 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+}
+
+.topo{
+    width: 100%;
+    height: 50px;
+    background-color: #bca1bf;
+    position: fixed;
+}
+
+.topo img{
+    width: auto;
+    height: 100%;
+    position: absolute;
+    left: 100px;
+}
+
+.topo span{
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+
+.topo span a, .topo span a:active, .topo span a:visited{
+    padding: 0 7px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.banner{
+    padding-top: 50px;
+}
+
+.banner img{
+    width: 100%;
+    height: 200px;
+}
+
+.caixa{
+    margin: 0 10px;
+    text-align: center;
+}
+
+.caixa div{
+    display: inline-block;
+}
+
+.caixa .parag{
+    width: 40%;
+    text-align: justify;
+    padding: 30px 50px;
+    font-size: 1.3em;
+}
+
+.caixa .destaque{
+    padding: 0 150px;
+}
+
+.caixa .destaque img{
+    height: 400px;
+}

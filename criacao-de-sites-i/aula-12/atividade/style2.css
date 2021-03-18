@@ -1,0 +1,66 @@
+/* Este estilo utiliza grid-template-areas no body*/
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 100px 100px 100px 200px auto;
+    grid-template-areas:
+    'um um um'
+    'dois dois tres'
+    'dois dois quatro'
+    'dois dois cinco'
+    'seis sete oito'
+    'nove nove nove' 
+}
+
+.um, .dois, .tres, .quatro, .cinco,
+.seis, .sete, .oito, .nove{
+    background-color: #bbb;
+    border: .15rem solid #333;
+    margin: .2rem;
+    padding: .3rem;
+    text-align: center;
+}
+
+.um{
+    grid-area: um;
+}
+.dois{
+    grid-area: dois;
+}
+
+.tres{
+    grid-area: tres;
+}
+
+.quatro{
+    grid-area: quatro;
+}
+
+.cinco{
+    grid-area: cinco;
+}
+
+.seis{
+    grid-area: seis;
+}
+
+.sete{
+    grid-area: sete;
+}
+
+.oito{
+    grid-area: oito;
+}
+
+.nove{
+    grid-area: nove;
+}

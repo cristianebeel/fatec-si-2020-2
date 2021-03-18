@@ -1,0 +1,38 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    /* quando o container é display flex, os elementos passam a ser inline.
+       quando não tem mais espaço, os elementos redimensionam */
+    /* flex-direction: column; elementos em coluna */
+    flex-direction: row; /* elementos em linha */
+    /* flex-direction: row-reverse ou column-reverse; */
+    flex-wrap: wrap;
+    /* joga os elementos pra próxima linha quando não tem mais espaço */
+    /* justify-content: center; conteúdo fica no centro */
+    justify-content: space-around;
+    align-items: center; /* alinha na vertical, precisa de altura pra funcionar */
+    /* align-items: flex-end; ficam no final da tela */
+    height: 100%;
+    width: 100%;
+}
+
+.container div{
+    background-color: #ccc;
+    border: 2px solid #333;
+    font-size: 3rem;
+    padding: 2rem;
+    margin: 3rem;
+    width: 200px;
+    text-align: center;
+}
+
+.item{
+    order: 2;
+    /* altera a ordem do elemento */
+}

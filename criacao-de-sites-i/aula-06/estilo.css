@@ -1,0 +1,17 @@
+body{
+    background-color: #eee;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.vermelho{
+    color: red;
+}
+
+.textocenter{
+    text-align: center;
+}
+
+.textogrande{
+    font-size: 20px;
+}

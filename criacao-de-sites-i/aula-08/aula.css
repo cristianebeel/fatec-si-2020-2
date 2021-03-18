@@ -1,0 +1,38 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.caixa{
+    height: 220px;
+    width: 220px;
+    background-color: aqua;
+    display: inline-block;
+    margin: 20px;
+}
+
+.pos1{
+    float: right;
+}
+
+.pos2{
+    top: 80px;
+    left: 50px;
+    position: absolute;
+    border: 2px solid blueviolet;
+}
+
+/* position passa como o obj vai se comportar
+com relação a posição dele no layout
+    - static: padrão
+    - relative: o elemento é relativo aos outros elementos que sejam desse tipo
+        ou ao elemento que ele tá dentro. depende das propriedades
+    - absolute: usado quando quer colocar uma seta flutuando no site
+        o elemento flutua, parecendo que tá fora do encaixe.
+        sai do alinhamento, do contexto, do documento.
+        tbm fica fixo, mas não acompanha a tela quando a gente rola.
+
+o float é diferente do position absolute
+    o absolute a gente tem um controle maior, mas o float não quebra o conteúdo
+*/

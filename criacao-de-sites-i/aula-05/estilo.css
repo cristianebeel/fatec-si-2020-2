@@ -1,0 +1,24 @@
+body{
+    /* Raíz da página */
+    background-color: green;
+    font-size: 16px;
+    color: lightgreen;
+}
+
+body p span{
+/* todo span que estiver dentro de p
+ * que estiver dentro de body */
+    font-size: 20px;
+}
+
+.vermelho{
+    color: red;
+}
+
+.vermelho span{
+    color: blue;
+}
+
+.p1{
+    background-color: #333;
+}

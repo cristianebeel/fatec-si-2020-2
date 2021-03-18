@@ -1,0 +1,32 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 200px 1fr ;
+    grid-template-rows: 100px 1fr auto;
+}
+
+.logo{background-color: blue;}
+
+.menu{
+    background-color: violet;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.corpo{
+    background-color: green;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.rodape{
+    background-color: crimson;
+    grid-column: 1/3;
+    grid-row: 4;
+}

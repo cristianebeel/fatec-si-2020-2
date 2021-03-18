@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+}
+
+.topo{
+    background-color: #e4b6d2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.topo img{
+    height: 5rem;
+    margin: .5rem;
+}
+
+.topo nav{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+}
+
+.topo nav a{
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topo nav a:hover{
+    color: #7e4367;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.caixa .container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.caixa .container div{
+    background-color: #eee;
+    padding: 1.75rem;
+    margin: .5em;
+}
+
+.caixa .container .destaque{
+    background-color: #fddbe3;
+}
+
+.caixa .container div p{
+    text-align: center;
+}

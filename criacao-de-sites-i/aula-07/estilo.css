@@ -1,0 +1,40 @@
+/*.caixa{
+    border: 2px solid #333;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    /* display: block; padrão. avisa que é uma caixa, um bloco */
+    /* display: inline-block; blocos em linha, lado a lado */
+    /* display: inline; tudo numa linha só, height e width não funcionam
+}
+
+.caixa img{
+    width: 200px;
+} 
+
+img{
+    /* display: inline; o texto fica do lado */
+    /* display: block;
+}*/
+
+img{
+    height: 200px;
+    width: 100%;
+}
+
+.caixa{
+    background-color: rgb(43, 112, 172);
+    color: white;
+    display: inline-block;
+    margin: 0.5%;
+    width: 32%;
+}
+
+/* quando tá inline, se comporta como elemento de texto. pra alinhar precisa do text-align
+   quando tá block, o margin 0 auto automaticamente alinha no centro
+
+   especificidade: quando uma regra é mais específica que outra regra, sobrescreeve
+   se a regra nova é mais específica, ela vai ser executada
+   se ela empatar e vier depois, ela tbm vai ser executada
+   e se ela empatar e vier antes, ela não vai ser executada pq a regra anterior sobrescreve
+   e se ela for menos específica e vier antes, ela vai ser ignorada */

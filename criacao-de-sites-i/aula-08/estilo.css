@@ -1,0 +1,56 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*.container{
+    background-color: bisque;
+    text-align: center;
+}
+
+.caixa{
+    width: 220px;
+    height: 220px;
+    background-color: aqua;
+    margin: 20px;
+    display: inline-block;
+}
+
+.pos1{
+    float: left;
+}
+
+.pos3{
+    float: right;
+}
+
+/* quando usa float, o elemento sai do fluxo tradicional
+   funciona mas não é a melhor opção */
+
+.topo{
+    width: 100%;
+    height: 80px;
+    background-color: cadetblue;
+    text-align: center;
+    position: fixed;
+}
+
+.banner{
+    padding-top: 80px;
+}
+
+.banner img{
+    height: 250px;
+    width: 100%;
+}
+
+.destaques{
+    text-align: center;
+}
+
+.destaque{
+    display: inline-block;
+    margin: 20px;
+    width: 30%;
+}

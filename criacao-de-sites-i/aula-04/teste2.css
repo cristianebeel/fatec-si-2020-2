@@ -1,0 +1,14 @@
+.tabela{
+    border: 2px solid #777;
+    width: 100%;
+}
+
+td{
+    border: 1px solid #999;
+}
+
+.destaque{
+    background-color: skyblue;
+    text-align: center;
+    border: 1px dotted red;
+}
