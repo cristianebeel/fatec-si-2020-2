@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exemplo 2</title>
+  </head>
+  <body>
+    <h1>Exemplo 2</h1>
+    <p>Exemplo simples com operações aritméticas</p>
+    <script>
+      //Aqui estamos forçando a conversão para inteiro (com base decimal)
+      const n1 = parseInt(prompt('Digite um número:'), 10)
+
+      //Aqui estamos forçando a conversão para número flutuante (decimal)
+      const n2 = parseFloat(prompt('Digite outro número:'))
+
+      /* Essa é uma forma de somar e mostrar o resultado
+						   const r = n1 * n2;
+         alert(`Resultado da multiplicação: ${r}`); */
+
+      // O retorno da conversão fracassada oara Number é NaN -> Not a Number
+
+      alert(`
+        Adição: ${n1 + n2}.
+        Subtração: ${n1 - n2}.
+        Multiplicação: ${n1 * n2}.
+        Divisão: ${n1 / n2}.
+      `)
+      /* A adição deu "erro", a linguagem concatenou ao invés de somar
+         porque o prompt SEMPRE armazena string */
+    </script>
+  </body>
+</html>

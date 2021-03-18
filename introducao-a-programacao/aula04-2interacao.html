@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exemplo 3</title>
+  </head>
+  <body>
+    <h1>Exemplo 3</h1>
+    <p>Exemplo simples escrevendo coisas na página.</p>
+    <button id="clicavel">Clique-me</button><br />
+    <div id="mensagem"></div>
+    <script>
+      let vezes = 0;
+      function abacate() {
+        /* document.write("Esta parte foi o JavaScript!");
+         * "Apaga" todo o HTML anterior e fica só esse texto */
+
+        // vezes = vezes + 1
+        // vezes += 1
+        vezes++;
+        mensagem.innerHTML += `${vezes}° texto em <b>JavaScript</b>!<br>`;
+      }
+
+      clicavel.onclick = abacate; //guarda a referência da função no evento click
+    </script>
+  </body>
+</html>

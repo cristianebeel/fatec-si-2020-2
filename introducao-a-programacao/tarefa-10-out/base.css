@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font: 14px/1.2 sans-serif;
+  }
+  
+  body {
+    height: 100%;
+    text-align: center;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #3a3a3a;
+  }
+  
+  ::selection {
+    background: #32c0c0;
+    color: #e6e6e6;
+  }
+  

@@ -1,0 +1,11 @@
+Crie um documento no Word e responda cada exercício lá, de forma organizada. Exercícios que exigem construção de código devem ser resolvidos antes e apenas o código pronto do script criado deve ser colado no documento.
+
+1. Pesquisa sobre Expressões Regulares (Regex) em JavaScript e escreva um parágrafo resumindo o assunto e apresentando um exemplo a sua escolha de como utilizar uma expressão regular para validação de um campo contendo um e-mail usando esta abordagem.
+
+2. Construa uma classe Animal contendo uma propriedade name.
+
+3. Construa uma classe Dog corretamente herdando a classe Animal e acrescentando uma propriedade breed.
+
+4. Construa uma classe Cat corretamente herdando a classe Animal e acrescentando uma propriedade cuteness.
+
+5. Crie uma tela de cadastro onde o usuário pode informar o nome do seu bichinho de estimação e escolher se ele é cão ou gato. Ao alternar entre cão ou gato na tela, deve ser exibido ou escondido o campo correspondente à raça (breed) ou fofura (cuteness), de acordo com o tipo de animal selecionado naquele momento. O código de submissão do formulário deve realizar validações nos campos, para garantir que estão preenchidos. Depois, deve instanciar um objeto do tipo correto (Dog ou Cat) e preencher suas propriedades com os valores correspondentes da interface. Por fim, deve exibir no console o objeto montado e limpar os campos da tela.

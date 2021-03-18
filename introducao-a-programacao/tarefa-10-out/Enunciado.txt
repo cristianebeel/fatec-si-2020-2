@@ -1,0 +1,15 @@
+Utilize o HTML disponibilizado aqui e crie o script para adicionar os comportamentos à página, conforme as instruções a seguir:
+
+Ao tentar submeter o formulário, validações devem ser realizadas nos três campos existentes. Para o campo name, obviamente a validação deve ser simplesmente verificar se não há algum conteúdo informado no value. Para o campo age, a validação adicionalmente também deve ver se há um número válido no campo. E para o campo gender, apesar de ser um campo do tipo select, a validação funciona da mesma forma que para o name.
+
+Supondo que todas as validações passem sem erro durante a submição do formulário, verifique se a pessoa pode votar (ou seja, se tem 16 anos, se tem 17 anos ou se tem mais de 70 anos) e, neste caso, adicione o nome da pessoa em um Array de nomes que podem votar. Senão, verifique se a pessoa tem entre 18 e 70 anos e, neste caso, adicione o nome da pessoa em um Array de nomes que devem votar. Observe que serão dois Arrays diferentes e não se esqueça que os Arrays devem ser criados no começo do script, fora das functions. Por fim, não se esqueça de exibir uma mensagem de erro se a pessoa tiver menos de 16 anos, informando que não é permitido votar ainda.
+
+Ao clicar no botão "Quem pode votar?", exiba no parágrafo de resultado somente os nomes do Array de nomes que podem votar, mas não os nomes que devem obrigatoriamente votar. Caso não exista nenhum nome neste Array, exiba adequademente uma mensagem informando que "Não há pessoas cadastradas que podem voluntariamente votar".
+
+Ao clicar no botão "Quem deve votar?", exiba no parágrafo de resultado somente os nomes do Array de nomes que devem votar, mas não os nomes que podem voluntariamente votar. Caso não exista nenhum nome neste Array, exiba adequademente uma mensagem informando que "Não há pessoas cadastradas que devem obrigatoriamente votar".
+
+Atente-se para o fato de que os dois botões de visualização funcionam de forma independente (são códigos diferentes), mas exibem o resultado no mesmo parágrafo de resposta. Então, se clicar em um botão e depois clicar no outro, o resultado do primeiro será limpo e ficará no parágrafo apenas o resultado exibido por aquele botão que foi clicado por último.
+
+BÔNUS: achou fácil resolver o exercício até aqui e quer um desafio maior? Separe os nomes femininos dos masculinos em Arrays diferentes e exiba separadamente os nomes na hora de apresentar o resultado, colorindo de azul os textos dos nomes femininos e em rosa os textos dos nomes masculinos (isso mesmo, você leu certo, estamos rompendo barreiras sociais de teoria das cores neste momento).
+
+Por fim, entregue apenas o código do script criado como resposta. Pode colar o código no Word e postar o documento salvo, ou pode colocar tudo no CodeSandbox e responder com o endereço do projeto salvo lá.

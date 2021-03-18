@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+::selection {
+  background: #32c0c0;
+  color: #fff;
+  text-shadow: none;
+}
+
+html {
+  font: 1.5em/2 sans-serif;
+  background: #f3f3f3;
+  color: #383838;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 2em;
+  color: #1d1d1d;
+  margin: 0 0 0.5em;
+}
+
+h1 {
+  color: #299e9e;
+}
+
+h2 {
+  font-size: 1.375em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1.125em;
+}
+
+h5,
+h6 {
+  font-size: 1em;
+}
+
+p {
+  margin: 1rem;
+  font-size: 1.1rem;
+}
+
+form {
+  background: #f3f3f3;
+  padding: 1.5rem 2rem;
+  margin: 1rem;
+  width: 50%;
+  display: grid;
+  gap: 0.5rem;
+}
+
+form button {
+  width: 30%;
+  margin: 0 auto;
+}
+
+div {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0.75rem;
+}
+
+input,
+select,
+button {
+  min-height: 2.5rem;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+input,
+select {
+  background: #fff;
+  border: 1px solid #151515;
+  border-radius: 0.5rem;
+  color: #000;
+  padding: 0.5rem;
+  outline: none;
+}
+
+input:hover,
+input:focus,
+select:hover,
+select:focus {
+  border-color: #000;
+  background: #e6e6e6;
+}
+
+input::placeholder {
+  color: #3a3a3a;
+}
+
+select:invalid,
+option[value=''] {
+  color: #3a3a3a;
+}
+
+option:not([value='']) {
+  color: #3a3a3a;
+}
+
+a {
+  color: #299e9e;
+  margin: 0.25em;
+}
+
+.error {
+  color: #ff2222;
+}
+
+button {
+  text-decoration: none;
+  color: #fff;
+  background: #3a3a3a;
+  padding: 0.5em 1em;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  border-radius: 0.7rem;
+  outline: none;
+  cursor: pointer;
+}
+
+form button {
+  background: #3a3a3a;
+}
+
+button:active {
+  box-shadow: inset 0 2px 20px #0008;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #e6e6e6;
+}
+
+table td {
+  padding: 0.2rem;
+  border: 1px solid #000;
+}

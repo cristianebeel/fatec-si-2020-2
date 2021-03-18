@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aula 05</title>
+  </head>
+  <body>
+    <h1>Aula 05</h1>
+    <p>Sorteia um número de 1 até o valor final escolhido.</p>
+
+    <form id="form">
+      <input id="field" type="number" placeholder="Digite o valor final" />
+      <button>Sortear</button>
+    </form>
+
+    <p id="message"></p>
+
+    <script>
+      field.focus()
+
+      form.onsubmit = function () {
+        event.preventDefault()
+        const limit = field.value
+        const randomized = Math.floor(Math.random() * limit) + 1
+        //Math.floor arredonda pra baixo
+        message.innerHTML = `O número sorteado foi: ${randomized}.`
+        field.value = ''
+        field.focus()
+      }
+    </script>
+  </body>
+</html>

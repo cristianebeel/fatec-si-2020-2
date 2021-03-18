@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exemplo 4</title>
+  </head>
+  <body>
+    <h1>Exemplo 4</h1>
+    <p>Exemplo preenchendo um campo na tela e usando seu valor.</p>
+
+    <form id="formulario">
+      <input id="caixa" placeholder="Digite seu nome" />
+      <button>Parabenizar</button>
+    </form>
+
+    <p id="mensagem"></p>
+
+    <script>
+      formulario.onsubmit = function () {
+        event.preventDefault();
+        const nome = caixa.value;
+        mensagem.innerHTML = `Parabéns ${nome}, você é incrível!`;
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade</title>
+  </head>
+  <body>
+    <h1>Aula 04. Atividade</h1>
+    <form id="formulario">
+      <h3>Digite dois números</h3>
+      <p><input id="numero1" placeholder="Digite um número" /></p>
+      <p><input id="numero2" placeholder="Digite um número" /></p>
+      <p><button>Multiplicar</button></p>
+      <p id="resultado"></p>
+    </form>
+
+    <script>
+      formulario.onsubmit = function () {
+        event.preventDefault();
+        let n1 = numero1.value;
+        let n2 = numero2.value;
+        resultado.innerHTML = `Resultado: ${n1 * n2}`;
+      };
+    </script>
+  </body>
+</html>
